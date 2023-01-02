@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [nopCommerce]" duration-ms="32583" started-at="2023-01-02T23:13:20 IST" finished-at="2023-01-02T23:13:52 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_checkingordersTest_002.checkingordersTest()[pri:0, instance:com.nopCommerce.testcases.TC_checkingordersTest_002@32eebfca]" name="checkingordersTest" class="com.nopCommerce.testcases.TC_checkingordersTest_002"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_checkingordersTest_002.checkingordersTest()[pri:0, instance:com.nopCommerce.testcases.TC_checkingordersTest_002@32eebfca]" name="checkingordersTest" class="com.nopCommerce.testcases.TC_checkingordersTest_002"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test(failed)" duration-ms="32583" started-at="2023-01-02T23:13:20 IST" finished-at="2023-01-02T23:13:52 IST">
+      <class name="com.nopCommerce.testcases.TC_checkingordersTest_002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.nopCommerce.testcases.TC_checkingordersTest_002@32eebfca]" name="setup" is-config="true" duration-ms="2477" started-at="2023-01-02T23:13:20 IST" finished-at="2023-01-02T23:13:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkingordersTest()[pri:0, instance:com.nopCommerce.testcases.TC_checkingordersTest_002@32eebfca]" name="checkingordersTest" duration-ms="28624" started-at="2023-01-02T23:13:22 IST" finished-at="2023-01-02T23:13:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkingordersTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.nopCommerce.testcases.TC_checkingordersTest_002@32eebfca]" name="teardown" is-config="true" duration-ms="1213" started-at="2023-01-02T23:13:51 IST" finished-at="2023-01-02T23:13:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.nopCommerce.testcases.TC_checkingordersTest_002 -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [nopCommerce] -->
+</testng-results>
